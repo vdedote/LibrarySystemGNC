@@ -1,0 +1,56 @@
+
+input[type=Reset]
+{
+    background-color: #f2f2f2;
+    width: 100px;
+    height: 30px;
+     /*For the icon---------------------*/
+    background-image: url(clear.png);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 2px 5px;
+    /*-----------------------------------*/
+    
+    
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+input[type=Button]
+{
+    background-color: #f2f2f2;
+    width: 100px;
+    height: 30px;
+     /*For the icon---------------------*/
+    background-image: url(return.png);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+   background-position: 2px 5px;
+    /*-----------------------------------*/
+    
+    
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 5px;
+} 
+
+
+
+input[type=Submit]
+{
+    background-color: #f2f2f2;
+    width: 100px;
+    height: 30px;
+     /*For the icon---------------------*/
+    background-image: url(add.png);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 2px 5px;
+    /*-----------------------------------*/
+    
+    
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 5px;
+} 

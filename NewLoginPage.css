@@ -1,0 +1,140 @@
+    #bg 
+    {
+       position: fixed; 
+      top: -50%; 
+      left: -50%; 
+      width: 200%; 
+      height: 200%;   
+    }
+
+    #bg img
+    {
+      position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        margin: auto; 
+        min-width: 50%;
+        min-height: 50%;
+    }
+#LogInBorder
+{
+	background-color:#dddddd;
+    background-color: rgba(64,64,64,0.8);
+    width: 300px;
+    height: 200px;
+    
+    border: 1px;
+    border-color: #804000;
+    border-radius: 10px;
+    padding:  20px;
+    /*margin: 0;*/
+
+  position: fixed;
+  top: 50%;
+  left:50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+input[type=text] 
+{
+    font-family: "Lucida Console";
+    margin-top: 20px;
+    width: 100%;
+    padding: 4px 5px;
+    box-sizing: border-box;
+}
+input[type=password] 
+{
+  font-family: "Lucida Console";
+    width: 100%;
+    padding: 4px 5px;
+    box-sizing: border-box;
+}
+input[type=Reset]
+{
+    font-family: "Lucida Console";
+    background-color: #262626;;
+     /*For the icon---------------------*/
+    background-image: url(clear.png);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 3px 9px;
+    /*-----------------------------------*/
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
+
+input[type=Submit]
+{
+    font-family: "Lucida Console";
+    background-color:  #262626;;
+    /*For the icon---------------------*/
+    background-image: url(logicon.png);
+    background-repeat: no-repeat;
+    background-position: 3px 9px;
+    background-size: 18px 18px;
+    /*-----------------------------------*/
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=Submit]:hover , input[type=Reset]:hover
+{
+  background-color: #1a1a1a;
+  cursor: pointer; 
+}
+
+input[type = Button] 
+{
+    font-family: "Lucida Console";
+    background-color:  #cc6600;
+    background-image: url(SignUpIcon.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 20px 20px;
+    
+    width:100%;
+    position: relative;
+   
+
+
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
+}
+input[type = Button]:hover
+{
+    background-color: #994d00;
+    cursor: pointer; 
+}
+
+.submit:active
+{
+    background-color: #994d00;
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.reset:active
+{
+    background-color: #994d00;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
